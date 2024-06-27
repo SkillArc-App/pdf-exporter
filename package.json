@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "heroku-postbuild": "mkdir ./.cache && mv /app/.cache/puppeteer ./.cache"
   },
   "dependencies": {
     "express": "^4.19.2",
