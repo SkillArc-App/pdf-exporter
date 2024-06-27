@@ -53,7 +53,7 @@ const createPdf = async (html, headerTemplate, footerTemplate) => {
   const pdfOption = {
     format: "A4",
     displayHeaderFooter: true,
-    margin: { top: "10mm", right: "15mm", bottom: "10mm", left: "15mm" },
+    margin: { top: "20mm", right: "15mm", bottom: "20mm", left: "15mm" },
     printBackground: true,
   };
 
